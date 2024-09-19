@@ -6,6 +6,5 @@ Weights available at:
 https://drive.google.com/file/d/1-1CiiWkinyPGIEmCzLrGn9PLS2vW4xdY/view?usp=sharing
 
 Use:
-'''
+```bash
 !gdown 1-1CiiWkinyPGIEmCzLrGn9PLS2vW4xdY
-'''
