@@ -11,10 +11,10 @@ https://drive.google.com/file/d/1yw_iuZxa25IQmtFuRdus8vo3r7lz8mai/view?usp=shari
 ```
 
 Validation set available at:
-https://drive.google.com/file/d/1ehQ0njDwI-juReK3EdKx7hb1SZRKycMP/view?usp=sharing
+https://drive.google.com/file/d/10GRAwcRH0NCPWe22wnd6JdOy-2_0xjm8/view?usp=sharing
 
 ```bash
-!gdown 1ehQ0njDwI-juReK3EdKx7hb1SZRKycMP
+!gdown 10GRAwcRH0NCPWe22wnd6JdOy-2_0xjm8
 ```
 
 Test set available at:
