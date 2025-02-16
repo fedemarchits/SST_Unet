@@ -1,5 +1,15 @@
 # SST_Unet
-Sea Surface Temperature Reconstruction under cloud occlusion - used Unet
+Sea Surface Temperature Reconstruction under cloud occlusion.
+
+## Model Overview
+This is a U-Net-like deep CNN for image segmentation, featuring an encoder-decoder architecture with skip connections. The encoder extracts features using Conv2D, MaxPooling, and BatchNormalization, while the decoder upsamples with Conv2DTranspose and merges features via concatenation. A final Conv2D layer outputs a single-channel prediction.
+
+Key Details
+- Input: (128, 128, 4)
+- Depth: 6 levels (64 → 2048 filters)
+- Total Parameters: 415M (~138M trainable)
+- Features: Batch Normalization, Dropout, Skip Connections
+- Output: (128, 128, 1) - likely for segmentation
 
 ## Datasets
 
